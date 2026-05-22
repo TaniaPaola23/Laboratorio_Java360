@@ -1,6 +1,6 @@
-package com.parquejurassico.modelos;
+package com.parquejurassico.modelos; //clase que representa un dinosaurio en el parque jurasico
 
-public class Dinosaurio {
+public class Dinosaurio { //atributos del dinosaurio
 
     private String nombre;
     private String especie;
@@ -8,7 +8,7 @@ public class Dinosaurio {
     private int edad;
     private boolean peligroso;
 
-    public Dinosaurio(String nombre, String especie, String tipo, int edad, boolean peligroso) {
+    public Dinosaurio(String nombre, String especie, String tipo, int edad, boolean peligroso) { //constructor de la clase dinosaurio
 
         this.nombre = nombre;
         this.especie = especie;
@@ -17,7 +17,7 @@ public class Dinosaurio {
         this.peligroso = peligroso;
     }
 
-    public void mostrarInformacion() {
+    public void mostrarInformacion() { //metodo para mostrar la información del dinosaurio
 
         System.out.println("DINOSAURIO");
         System.out.println("Nombre: " + nombre);

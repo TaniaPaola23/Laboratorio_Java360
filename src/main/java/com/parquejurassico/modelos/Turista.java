@@ -1,14 +1,13 @@
-package com.parquejurassico.modelos;
+package com.parquejurassico.modelos; //clase que representa a un turista en el parque jurasico
 
-public class Turista extends Persona {
+public class Turista extends Persona { //atributos del turista
 
     private String nacionalidad;
     private double dineroDisponible;
     private boolean tieneBoleto;
 
 
-    public Turista(String nombre, int edad, String nacionalidad,
-                   double dineroDisponible, boolean tieneBoleto) {
+    public Turista(String nombre, int edad, String nacionalidad, double dineroDisponible, boolean tieneBoleto) { //constructor de la clase turista
 
         super(nombre, edad);
 
@@ -17,7 +16,7 @@ public class Turista extends Persona {
         this.tieneBoleto = tieneBoleto;
     }
 
-    public void mostrarInformacion() {
+    public void mostrarInformacion() { //metodo para mostrar la información del turista
 
         System.out.println("TURISTA");
 

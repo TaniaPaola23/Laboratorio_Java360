@@ -1,13 +1,12 @@
-package com.parquejurassico.modelos;
+package com.parquejurassico.modelos; //clase que representa un trabajador en el parque jurasico
 
-public class Trabajador extends Persona {
+public class Trabajador extends Persona { //atributos del trabajador
 
     private String puesto;
     private double salario;
     private boolean disponible;
 
-    public Trabajador(String nombre, int edad, String puesto,
-                      double salario, boolean disponible) {
+    public Trabajador(String nombre, int edad, String puesto, double salario, boolean disponible) { //constructor de la clase trabajador
 
         super(nombre, edad);
 
@@ -16,7 +15,7 @@ public class Trabajador extends Persona {
         this.disponible = disponible;
     }
 
-    public void mostrarInformacion() {
+    public void mostrarInformacion() { //metodo para mostrar la información del trabajador
 
         System.out.println("TRABAJADOR");
 
